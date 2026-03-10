@@ -4,16 +4,16 @@ import { Button } from "@/components/ui/button";
 import { TrendingUp } from "lucide-react";
 
 const data = [
-  { month: "Ian", withAI: 11, withoutAI: 11 },
+  { month: "Jan", withAI: 11, withoutAI: 11 },
   { month: "Feb", withAI: 12, withoutAI: 12 },
-  { month: "Mar", withAI: 10, withoutAI: 10 },
-  { month: "Apr", withAI: 25, withoutAI: 25 },
-  { month: "Mai", withAI: 48, withoutAI: 30 },
-  { month: "Iun", withAI: 56, withoutAI: 8 },
-  { month: "Iul", withAI: 60, withoutAI: 60 },
+  { month: "Már", withAI: 10, withoutAI: 10 },
+  { month: "Ápr", withAI: 25, withoutAI: 25 },
+  { month: "Máj", withAI: 48, withoutAI: 30 },
+  { month: "Jún", withAI: 56, withoutAI: 8 },
+  { month: "Júl", withAI: 60, withoutAI: 60 },
   { month: "Aug", withAI: 62, withoutAI: 30 },
-  { month: "Sep", withAI: 62, withoutAI: 18 },
-  { month: "Oct", withAI: 68, withoutAI: 15 },
+  { month: "Szep", withAI: 62, withoutAI: 18 },
+  { month: "Okt", withAI: 68, withoutAI: 15 },
   { month: "Nov", withAI: 76, withoutAI: 12 },
   { month: "Dec", withAI: 80, withoutAI: 8 },
 ];
@@ -25,9 +25,9 @@ export const CostComparisonChart = () => {
         <div className="space-y-8">
           <div className="text-center space-y-4">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold">
-              Raport creștere venit vs
+              Bevételnövekedési jelentés az
               <br />
-              anul trecut
+              előző évhez képest
             </h2>
           </div>
 
@@ -38,7 +38,7 @@ export const CostComparisonChart = () => {
                   dataKey="month"
                   stroke="rgba(255, 255, 255, 0.8)"
                   tick={{ fill: "rgba(255, 255, 255, 0.9)", fontSize: 14 }}
-                  style={{ 
+                  style={{
                     filter: "drop-shadow(0 0 4px rgba(255, 255, 255, 0.3))"
                   }}
                 />
@@ -46,7 +46,7 @@ export const CostComparisonChart = () => {
                   stroke="rgba(255, 255, 255, 0.8)"
                   tick={{ fill: "rgba(255, 255, 255, 0.9)", fontSize: 14 }}
                   tickFormatter={(value) => `${value}%`}
-                  style={{ 
+                  style={{
                     filter: "drop-shadow(0 0 4px rgba(255, 255, 255, 0.3))"
                   }}
                 />
@@ -72,24 +72,24 @@ export const CostComparisonChart = () => {
                 <Line
                   type="monotone"
                   dataKey="withAI"
-                  name="Afacerea ta cu automatizări AI"
+                  name="Vállalkozásod AI automatizálással"
                   stroke="#22c55e"
                   strokeWidth={3}
                   dot={{ fill: "#22c55e", r: 5 }}
                   activeDot={{ r: 7 }}
-                  style={{ 
+                  style={{
                     filter: "drop-shadow(0 0 12px rgba(34, 197, 94, 0.8))"
                   }}
                 />
                 <Line
                   type="monotone"
                   dataKey="withoutAI"
-                  name="Afacerea ta FĂRĂ automatizări AI"
+                  name="Vállalkozásod AI automatizálás NÉLKÜL"
                   stroke="#ef4444"
                   strokeWidth={3}
                   dot={{ fill: "#ef4444", r: 5 }}
                   activeDot={{ r: 7 }}
-                  style={{ 
+                  style={{
                     filter: "drop-shadow(0 0 12px rgba(239, 68, 68, 0.8))"
                   }}
                 />
@@ -99,21 +99,21 @@ export const CostComparisonChart = () => {
 
           <div className="text-center space-y-6 pt-8">
             <h3 className="text-2xl md:text-3xl font-bold">
-              Ești gata să reduci costurile operaționale cu cel puțin{" "}
+              Készen állsz a működési költségek legalább{" "}
               <span className="text-[#22c55e]" style={{ filter: "drop-shadow(0 0 8px rgba(34, 197, 94, 0.6))" }}>
                 50%
-              </span>?
+              </span>-os csökkentésére?
             </h3>
             <Button
               variant="pill"
               size="lg"
               className="text-base md:text-lg font-semibold bg-white hover:bg-white/90 text-black px-8 py-6"
-              style={{ 
+              style={{
                 filter: "drop-shadow(0 0 20px rgba(255, 255, 255, 0.8))"
               }}
             >
               <TrendingUp className="w-5 h-5 mr-2" />
-              VREAU SĂ SCAD COSTURILE
+              CSÖKKENTENI AKAROM A KÖLTSÉGEKET
             </Button>
           </div>
         </div>

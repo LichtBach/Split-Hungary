@@ -92,7 +92,7 @@ export const FeatureShowcase = ({
         {/* CTA Button */}
         <button className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-full font-medium hover:bg-primary/90 transition-smooth mt-6">
           <span className="w-5 h-5 flex items-center justify-center">▶</span>
-          Experience This Pillar
+          Fedezd Fel
           <ArrowRight className="w-4 h-4" />
         </button>
       </div>

@@ -18,7 +18,7 @@ export const CostCalculator = () => {
   const timeSavings = monthlyTimeCost * 0.6;
 
   const formatCurrency = (value: number) => {
-    return new Intl.NumberFormat('ro-RO', {
+    return new Intl.NumberFormat('hu-HU', {
       style: 'currency',
       currency: 'EUR',
       minimumFractionDigits: 0,
@@ -31,10 +31,10 @@ export const CostCalculator = () => {
       <div className="max-w-5xl mx-auto">
         <div className="text-center space-y-4 mb-12">
           <h2 className="text-4xl md:text-5xl font-bold">
-            Calculează Economiile Tale cu AI
+            Számold Ki a Megtakarításodat AI-val
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Descoperă cât poți economisi prin automatizarea cu inteligență artificială
+            Fedezd fel, mennyit takaríthatsz meg mesterséges intelligencia alapú automatizálással
           </p>
         </div>
 
@@ -43,11 +43,11 @@ export const CostCalculator = () => {
             <TabsList className="grid w-full grid-cols-2 mb-8">
               <TabsTrigger value="employees" className="flex items-center gap-2">
                 <Calculator className="w-4 h-4" />
-                Costuri Angajați
+                Alkalmazotti Költségek
               </TabsTrigger>
               <TabsTrigger value="time" className="flex items-center gap-2">
                 <Clock className="w-4 h-4" />
-                Timp Economisit
+                Megtakarított Idő
               </TabsTrigger>
             </TabsList>
 
@@ -55,7 +55,7 @@ export const CostCalculator = () => {
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="space-y-2">
                   <Label htmlFor="numEmployees">
-                    Număr Angajați (Agent Vânzări/Recepționer)
+                    Alkalmazottak Száma (Értékesítő/Recepciós)
                   </Label>
                   <Input
                     id="numEmployees"
@@ -67,7 +67,7 @@ export const CostCalculator = () => {
                   />
                 </div>
                 <div className="space-y-2">
-                  <Label htmlFor="avgSalary">Salariu Brut Lunar (EUR)</Label>
+                  <Label htmlFor="avgSalary">Havi Bruttó Fizetés (EUR)</Label>
                   <Input
                     id="avgSalary"
                     type="number"
@@ -83,9 +83,9 @@ export const CostCalculator = () => {
               <div className="grid md:grid-cols-2 gap-8 pt-8">
                 <Card className="p-8 bg-card/30 border-border">
                   <div className="space-y-3">
-                    <p className="text-sm text-muted-foreground uppercase tracking-wide">Cost Total Curent</p>
+                    <p className="text-sm text-muted-foreground uppercase tracking-wide">Jelenlegi Összköltség</p>
                     <p className="text-3xl sm:text-4xl md:text-5xl font-bold break-words">{formatCurrency(totalMonthlyCost)}</p>
-                    <p className="text-sm text-muted-foreground">pe lună pentru acoperire 24/7 (3 schimburi)</p>
+                    <p className="text-sm text-muted-foreground">havonta 24/7 lefedettséghez (3 műszak)</p>
                   </div>
                 </Card>
 
@@ -93,13 +93,13 @@ export const CostCalculator = () => {
                   <div className="absolute inset-0 bg-gradient-to-r from-primary/10 to-transparent animate-pulse" />
                   <div className="relative space-y-3 flex flex-col items-center justify-center h-full text-center">
                     <TrendingDown className="w-10 h-10 md:w-12 md:h-12 text-primary mb-3 animate-fade-in" />
-                    <p className="text-sm text-muted-foreground uppercase tracking-wide">Economisești</p>
+                    <p className="text-sm text-muted-foreground uppercase tracking-wide">Megtakarítás</p>
                     <p className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-primary animate-scale-in break-words">
                       {formatCurrency(savings)}
                     </p>
                     <div className="flex items-center gap-2 text-primary/80">
                       <div className="h-px w-6 md:w-8 bg-primary/40" />
-                      <p className="text-base md:text-lg font-semibold">60% reducere</p>
+                      <p className="text-base md:text-lg font-semibold">60% csökkentés</p>
                       <div className="h-px w-6 md:w-8 bg-primary/40" />
                     </div>
                   </div>
@@ -108,7 +108,7 @@ export const CostCalculator = () => {
 
               <div className="pt-8 text-center">
                 <p className="text-sm md:text-base text-muted-foreground">
-                  Economie anuală estimată: <span className="text-lg md:text-xl font-bold text-primary break-words">{formatCurrency(savings * 12)}</span>
+                  Becsült éves megtakarítás: <span className="text-lg md:text-xl font-bold text-primary break-words">{formatCurrency(savings * 12)}</span>
                 </p>
               </div>
             </TabsContent>
@@ -116,7 +116,7 @@ export const CostCalculator = () => {
             <TabsContent value="time" className="space-y-8">
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="space-y-2">
-                  <Label htmlFor="hoursWasted">Ore Irosite pe Săptămână</Label>
+                  <Label htmlFor="hoursWasted">Elvesztegetett Órák Hetente</Label>
                   <Input
                     id="hoursWasted"
                     type="number"
@@ -127,7 +127,7 @@ export const CostCalculator = () => {
                   />
                 </div>
                 <div className="space-y-2">
-                  <Label htmlFor="costPerHour">Cost Estimativ / Oră (EUR)</Label>
+                  <Label htmlFor="costPerHour">Becsült Óradíj (EUR)</Label>
                   <Input
                     id="costPerHour"
                     type="number"
@@ -143,9 +143,9 @@ export const CostCalculator = () => {
               <div className="grid md:grid-cols-2 gap-8 pt-8">
                 <Card className="p-8 bg-card/30 border-border">
                   <div className="space-y-3">
-                    <p className="text-sm text-muted-foreground uppercase tracking-wide">Cost Timp Irosit</p>
+                    <p className="text-sm text-muted-foreground uppercase tracking-wide">Elvesztegetett Idő Költsége</p>
                     <p className="text-3xl sm:text-4xl md:text-5xl font-bold break-words">{formatCurrency(monthlyTimeCost)}</p>
-                    <p className="text-sm text-muted-foreground">pe lună cu procese manuale</p>
+                    <p className="text-sm text-muted-foreground">havonta manuális folyamatokkal</p>
                   </div>
                 </Card>
 
@@ -153,13 +153,13 @@ export const CostCalculator = () => {
                   <div className="absolute inset-0 bg-gradient-to-r from-primary/10 to-transparent animate-pulse" />
                   <div className="relative space-y-3 flex flex-col items-center justify-center h-full text-center">
                     <TrendingDown className="w-10 h-10 md:w-12 md:h-12 text-primary mb-3 animate-fade-in" />
-                    <p className="text-sm text-muted-foreground uppercase tracking-wide">Economisești</p>
+                    <p className="text-sm text-muted-foreground uppercase tracking-wide">Megtakarítás</p>
                     <p className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-primary animate-scale-in break-words">
                       {formatCurrency(timeSavings)}
                     </p>
                     <div className="flex items-center gap-2 text-primary/80">
                       <div className="h-px w-6 md:w-8 bg-primary/40" />
-                      <p className="text-base md:text-lg font-semibold">60% reducere</p>
+                      <p className="text-base md:text-lg font-semibold">60% csökkentés</p>
                       <div className="h-px w-6 md:w-8 bg-primary/40" />
                     </div>
                   </div>
@@ -168,7 +168,7 @@ export const CostCalculator = () => {
 
               <div className="pt-8 text-center">
                 <p className="text-sm md:text-base text-muted-foreground">
-                  Economie anuală estimată: <span className="text-lg md:text-xl font-bold text-primary break-words">{formatCurrency(timeSavings * 12)}</span>
+                  Becsült éves megtakarítás: <span className="text-lg md:text-xl font-bold text-primary break-words">{formatCurrency(timeSavings * 12)}</span>
                 </p>
               </div>
             </TabsContent>

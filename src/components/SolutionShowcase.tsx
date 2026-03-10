@@ -48,7 +48,7 @@ export const SolutionShowcase = ({
         {/* Benefits Card */}
         <Card className="border-border bg-card/50 backdrop-blur-sm h-full">
           <CardContent className="p-8 space-y-6">
-            <h3 className="text-2xl font-semibold">Beneficii Cheie</h3>
+            <h3 className="text-2xl font-semibold">Fő Előnyök</h3>
             <div className="space-y-4">
               {benefits.map((benefit, index) => (
                 <div key={index} className="flex items-start gap-3">

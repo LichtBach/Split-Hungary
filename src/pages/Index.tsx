@@ -30,72 +30,72 @@ const Index = () => {
   const tabs = [
     {
       id: "voice-agent",
-      label: "AI-Powered Intelligence",
+      label: "AI-Alapú Intelligencia",
       icon: <Bot className="w-5 h-5" />,
       content: (
         <FeatureShowcase
-          title="Agent AI Vocal Inteligent"
-          subtitle="Algoritmi avansați în acțiune"
-          description="Experimentează AI dinamic care se adaptează la workflow-ul tău unic, analizează pattern-uri de date și oferă sugestii inteligente pentru generarea de conținut și automatizarea conversațiilor cu clienții."
+          title="Intelligens AI Hangügynök"
+          subtitle="Fejlett algoritmusok működésben"
+          description="Tapasztald meg a dinamikus AI-t, amely alkalmazkodik az egyedi munkafolyamataidhoz, elemzi az adatmintákat, és intelligens javaslatokat ad tartalomgeneráláshoz és az ügyfélbeszélgetések automatizálásához."
           gridItems={[
-            { icon: BarChart3, title: "Data Analysis" },
-            { icon: Network, title: "Pattern Recognition" },
-            { icon: Zap, title: "Smart Suggestions" },
-            { icon: GitBranch, title: "Workflow Adaptation" },
+            { icon: BarChart3, title: "Adatelemzés" },
+            { icon: Network, title: "Mintafelismerés" },
+            { icon: Zap, title: "Okos Javaslatok" },
+            { icon: GitBranch, title: "Munkafolyamat Adaptáció" },
           ]}
           listItems={[
-            { title: "Adaptive Learning Algorithms" },
-            { title: "Real-time Data Analysis" },
-            { title: "Smart Content Suggestions" },
-            { title: "Workflow Customization" },
+            { title: "Adaptív Tanulási Algoritmusok" },
+            { title: "Valós Idejű Adatelemzés" },
+            { title: "Okos Tartalomjavaslatok" },
+            { title: "Munkafolyamat Testreszabás" },
           ]}
         />
       ),
     },
     {
       id: "automation",
-      label: "Professional Community",
+      label: "Szakmai Közösség",
       icon: <Users className="w-5 h-5" />,
       content: (
         <FeatureShowcase
-          title="Automatizare Workflow"
-          subtitle="Comunitate profesională de automatizare"
-          description="Conectează-te cu o rețea vibrantă de profesioniști care folosesc AI și automatizări pentru a-și transforma afacerile. Împărtășește experiențe, învață best practices și crește împreună cu comunitatea."
+          title="Munkafolyamat Automatizálás"
+          subtitle="Professzionális automatizálási közösség"
+          description="Csatlakozz egy pezsgő szakmai hálózathoz, akik AI-t és automatizálást használnak vállalkozásaik átalakításához. Oszd meg tapasztalataidat, tanulj a legjobb gyakorlatokból, és fejlődj együtt a közösséggel."
           gridItems={[
-            { icon: Workflow, title: "Visual Workflows" },
-            { icon: Code, title: "No-Code Integration" },
-            { icon: Database, title: "Data Sync" },
-            { icon: Cloud, title: "Cloud Deploy" },
+            { icon: Workflow, title: "Vizuális Munkafolyamatok" },
+            { icon: Code, title: "Kódmentes Integráció" },
+            { icon: Database, title: "Adatszinkronizálás" },
+            { icon: Cloud, title: "Felhő Telepítés" },
           ]}
           listItems={[
-            { title: "Expert Network Access" },
-            { title: "Collaborative Projects" },
-            { title: "Knowledge Sharing" },
-            { title: "Priority Support" },
+            { title: "Szakértői Hálózat Hozzáférés" },
+            { title: "Együttműködési Projektek" },
+            { title: "Tudásmegosztás" },
+            { title: "Kiemelt Támogatás" },
           ]}
         />
       ),
     },
     {
       id: "innovation",
-      label: "Innovative Solutions",
+      label: "Innovatív Megoldások",
       icon: <Shield className="w-5 h-5" />,
       content: (
         <FeatureShowcase
-          title="Soluții Inovatoare"
-          subtitle="Tehnologie de ultimă generație"
-          description="Platformă construită pe cele mai avansate tehnologii AI și cloud, oferind securitate maximă, conformitate GDPR și performanță excepțională pentru afacerea ta din România."
+          title="Innovatív Megoldások"
+          subtitle="Legmodernebb technológia"
+          description="A legfejlettebb AI és felhőtechnológiákra épülő platform, maximális biztonsággal, GDPR megfelelőséggel és kivételes teljesítménnyel a magyarországi vállalkozásod számára."
           gridItems={[
-            { icon: Shield, title: "GDPR Compliant" },
-            { icon: Lock, title: "End-to-End Encryption" },
-            { icon: Activity, title: "Real-time Monitoring" },
-            { icon: TrendingUp, title: "Scalable Infrastructure" },
+            { icon: Shield, title: "GDPR Kompatibilis" },
+            { icon: Lock, title: "Végponttól Végpontig Titkosítás" },
+            { icon: Activity, title: "Valós Idejű Monitorozás" },
+            { icon: TrendingUp, title: "Skálázható Infrastruktúra" },
           ]}
           listItems={[
-            { title: "Enterprise-Grade Security" },
-            { title: "Romanian Data Centers" },
-            { title: "ISO Certifications" },
-            { title: "24/7 Monitoring" },
+            { title: "Vállalati Szintű Biztonság" },
+            { title: "Magyarországi Adatközpontok" },
+            { title: "ISO Tanúsítványok" },
+            { title: "24/7 Monitorozás" },
           ]}
         />
       ),
@@ -109,84 +109,84 @@ const Index = () => {
       icon: <Phone className="w-5 h-5" />,
       content: (
         <SolutionShowcase
-          title="Call Center AI Avansat"
-          subtitle="Automatizează interacțiunile cu clienții și crește satisfacția"
+          title="Fejlett AI Call Center"
+          subtitle="Automatizáld az ügyfélinterakciókat és növeld az elégedettséget"
           benefits={[
-            "Răspunsuri automate instantanee 24/7 pentru clienți",
-            "Procesare în limbaj natural pentru conversații fluide",
-            "Integrare completă cu CRM-ul existent",
-            "Monitorizare în timp real și raportare avansată",
+            "Azonnali automatikus válaszok 24/7 az ügyfeleknek",
+            "Természetes nyelvfeldolgozás gördülékeny beszélgetésekhez",
+            "Teljes integráció a meglévő CRM rendszerrel",
+            "Valós idejű monitorozás és fejlett riportálás",
           ]}
           metrics={{
-            title: "Performanță Call Center",
+            title: "Call Center Teljesítmény",
             data: [
-              { label: "Rata de Răspuns", value: "98%", change: "↑ 3.2%", isPositive: true },
-              { label: "Satisfacție Clienți", value: "4.8★", change: "↑ 0.6", isPositive: true },
-              { label: "Timp Rezolvare", value: "45s", change: "↓ 15s", isPositive: true },
-              { label: "Costuri/Apel", value: "€0.12", change: "↓ €0.45", isPositive: true },
+              { label: "Válaszadási Arány", value: "98%", change: "↑ 3.2%", isPositive: true },
+              { label: "Ügyfél Elégedettség", value: "4.8★", change: "↑ 0.6", isPositive: true },
+              { label: "Megoldási Idő", value: "45mp", change: "↓ 15mp", isPositive: true },
+              { label: "Költség/Hívás", value: "€0,12", change: "↓ €0,45", isPositive: true },
             ],
           }}
-          ctaTitle="Gata să Îmbunătățești Serviciul pentru Clienți?"
-          ctaDescription="Transformă call center-ul în avantajul competitiv al afacerii tale"
-          ctaButtonText="Începe Demonstrația Gratuită"
+          ctaTitle="Készen Állsz az Ügyfélszolgálat Fejlesztésére?"
+          ctaDescription="Alakítsd a call centert vállalkozásod versenyelőnyévé"
+          ctaButtonText="Ingyenes Bemutató Indítása"
         />
       ),
     },
     {
       id: "sales-agent",
-      label: "AI Agent de Vânzări",
+      label: "AI Értékesítési Ügynök",
       icon: <ShoppingCart className="w-5 h-5" />,
       content: (
         <SolutionShowcase
-          title="Agent AI pentru Vânzări"
-          subtitle="Maximizează conversiile și crește veniturile automat"
+          title="AI Értékesítési Ügynök"
+          subtitle="Maximalizáld a konverziókat és növeld a bevételt automatikusan"
           benefits={[
-            "Calificare automată a lead-urilor cu AI avansat",
-            "Follow-up personalizat pentru fiecare prospect",
-            "Predicții inteligente pentru oportunități de vânzare",
-            "Automatizare completă a procesului de vânzare",
+            "Automatikus leadminősítés fejlett AI-val",
+            "Személyre szabott utánkövetés minden érdeklődőnek",
+            "Intelligens előrejelzések értékesítési lehetőségekhez",
+            "Az értékesítési folyamat teljes automatizálása",
           ]}
           metrics={{
-            title: "Rezultate Vânzări",
+            title: "Értékesítési Eredmények",
             data: [
-              { label: "Rata Conversie", value: "12.3%", change: "↑ 4.8%", isPositive: true },
-              { label: "Lead-uri Calificate", value: "385", change: "↑ 142", isPositive: true },
-              { label: "ROI Campanii", value: "8.5x", change: "↑ 3.2x", isPositive: true },
-              { label: "Venit Mediu", value: "€2,840", change: "↑ €890", isPositive: true },
+              { label: "Konverziós Arány", value: "12,3%", change: "↑ 4,8%", isPositive: true },
+              { label: "Minősített Leadek", value: "385", change: "↑ 142", isPositive: true },
+              { label: "Kampány ROI", value: "8,5x", change: "↑ 3,2x", isPositive: true },
+              { label: "Átlagos Bevétel", value: "€2 840", change: "↑ €890", isPositive: true },
             ],
           }}
-          ctaTitle="Pregătit să-ți 10x Vânzările?"
-          ctaDescription="Alătură-te sute lor de companii care cresc cu AI-ul nostru de vânzări"
-          ctaButtonText="Obține Consultație Gratuită"
+          ctaTitle="Készen Állsz 10x-esére Növelni az Értékesítést?"
+          ctaDescription="Csatlakozz a több száz vállalathoz, amelyek AI értékesítésünkkel növekednek"
+          ctaButtonText="Ingyenes Konzultáció Kérése"
         />
       ),
     },
     {
       id: "workflow-automation",
-      label: "Automatizare Workflow",
+      label: "Munkafolyamat Automatizálás",
       icon: <Cog className="w-5 h-5" />,
       content: (
         <SolutionShowcase
-          title="Automatizare Workflow Completă"
-          subtitle="Elimină task-urile repetitive și crește productivitatea echipei"
+          title="Teljes Munkafolyamat Automatizálás"
+          subtitle="Szüntesd meg az ismétlődő feladatokat és növeld a csapat termelékenységét"
           benefits={[
-            "Automatizare no-code pentru orice proces de business",
-            "Sincronizare automată între toate sistemele tale",
-            "Notificări inteligente și gestionare task-uri",
-            "Dashboard centralizat pentru toate workflow-urile",
+            "Kódmentes automatizálás bármely üzleti folyamathoz",
+            "Automatikus szinkronizálás minden rendszered között",
+            "Intelligens értesítések és feladatkezelés",
+            "Központi vezérlőpult minden munkafolyamathoz",
           ]}
           metrics={{
-            title: "Impactul Automatizării",
+            title: "Az Automatizálás Hatása",
             data: [
-              { label: "Timp Economisit", value: "847h", change: "↑ 312h", isPositive: true },
-              { label: "Procese Automate", value: "156", change: "↑ 89", isPositive: true },
-              { label: "Reducere Erori", value: "94%", change: "↑ 37%", isPositive: true },
-              { label: "Productivitate", value: "+185%", change: "↑ 62%", isPositive: true },
+              { label: "Megtakarított Idő", value: "847ó", change: "↑ 312ó", isPositive: true },
+              { label: "Automatizált Folyamatok", value: "156", change: "↑ 89", isPositive: true },
+              { label: "Hibacsökkentés", value: "94%", change: "↑ 37%", isPositive: true },
+              { label: "Termelékenység", value: "+185%", change: "↑ 62%", isPositive: true },
             ],
           }}
-          ctaTitle="Automatizează-ți Afacerea Astăzi"
-          ctaDescription="Începe să economisești timp și bani cu workflow-uri inteligente"
-          ctaButtonText="Explorează Automatizările"
+          ctaTitle="Automatizáld Vállalkozásodat Ma"
+          ctaDescription="Kezdj el időt és pénzt megtakarítani intelligens munkafolyamatokkal"
+          ctaButtonText="Fedezd Fel az Automatizálásokat"
         />
       ),
     },
@@ -199,22 +199,22 @@ const Index = () => {
         <div className="container mx-auto px-4 py-20 md:py-32">
           <div className="max-w-5xl mx-auto text-center space-y-8">
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold leading-tight tracking-tight">
-              Elevate Your Creative &
+              Emeld Magasabb Szintre
               <br />
-              Professional Pursuits
+              Vállalkozásodat AI-val
             </h1>
 
             <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              Imagine having a digital partner that evolves with your needs, providing seamless
-              assistance in writing, ideation, and content generation.
+              Képzeld el, hogy van egy digitális partnered, amely fejlődik az igényeiddel együtt,
+              zökkenőmentes segítséget nyújtva az ügyfélkezelésben, értékesítésben és tartalomgenerálásban.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">
               <Button variant="pill" size="lg" className="text-base font-semibold">
-                Începe Călătoria cu AI
+                Kezdd El az AI Utazást
               </Button>
               <Button variant="outline" size="lg" className="text-base">
-                Explorează Automatizările
+                Fedezd Fel az Automatizálásokat
               </Button>
             </div>
           </div>
@@ -236,10 +236,10 @@ const Index = () => {
       <section className="container mx-auto px-4 py-16 md:py-24">
         <div className="text-center space-y-4 mb-16">
           <h2 className="text-5xl md:text-6xl font-bold">
-            Stăpânește Funcționalitățile Avansate care Generează Creștere
+            Sajátítsd El a Növekedést Generáló Fejlett Funkciókat
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Activează instrumente puternice de AI și automatizare pe care majoritatea afacerilor le ignoră
+            Aktiváld a hatékony AI és automatizálási eszközöket, amelyeket a legtöbb vállalkozás figyelmen kívül hagy
           </p>
         </div>
         <TabbedSection tabs={solutionTabs} />
@@ -250,15 +250,15 @@ const Index = () => {
         <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
           <div className="text-center space-y-2">
             <div className="text-5xl font-bold">500+</div>
-            <div className="text-muted-foreground">Companii Românești</div>
+            <div className="text-muted-foreground">Magyar Vállalkozás</div>
           </div>
           <div className="text-center space-y-2">
             <div className="text-5xl font-bold">250%</div>
-            <div className="text-muted-foreground">Creștere în Conversii</div>
+            <div className="text-muted-foreground">Konverziós Növekedés</div>
           </div>
           <div className="text-center space-y-2">
             <div className="text-5xl font-bold">100%</div>
-            <div className="text-muted-foreground">Satisfacție Clienți</div>
+            <div className="text-muted-foreground">Ügyfél Elégedettség</div>
           </div>
         </div>
       </section>
@@ -268,20 +268,20 @@ const Index = () => {
         <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-primary/10 via-accent/5 to-primary/5 border border-border p-12 md:p-20 text-center">
           <div className="relative z-10 max-w-3xl mx-auto space-y-6">
             <h2 className="text-4xl md:text-5xl font-bold">
-              Gata să Automatizezi
+              Készen Állsz
               <br />
-              Afacerea Ta?
+              Automatizálni a Vállalkozásodat?
             </h2>
             <p className="text-lg text-muted-foreground">
-              Începe cu o demonstrație gratuită și descoperă cum AI vocală și automatizările pot
-              transforma rezultatele tale de business.
+              Kezdd egy ingyenes bemutatóval, és fedezd fel, hogyan tudja az AI hangtechnológia
+              és az automatizálás átalakítani üzleti eredményeidet.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-6">
               <Button variant="pill" size="lg" className="font-semibold">
-                Programează Demo Gratuit
+                Ingyenes Bemutató Foglalása
               </Button>
               <Button variant="outline" size="lg">
-                Contactează Echipa
+                Kapcsolatfelvétel a Csapattal
               </Button>
             </div>
           </div>
@@ -293,68 +293,68 @@ const Index = () => {
         <div className="container mx-auto px-4 py-12">
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
-              <h3 className="font-semibold text-base mb-4">Produs</h3>
+              <h3 className="font-semibold text-base mb-4">Termék</h3>
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li className="hover:text-foreground transition-smooth cursor-pointer">
-                  Agent AI Vocal
+                  AI Hangügynök
                 </li>
                 <li className="hover:text-foreground transition-smooth cursor-pointer">
-                  Automatizare Workflow
+                  Munkafolyamat Automatizálás
                 </li>
                 <li className="hover:text-foreground transition-smooth cursor-pointer">
-                  Integrări
+                  Integrációk
                 </li>
-                <li className="hover:text-foreground transition-smooth cursor-pointer">Prețuri</li>
+                <li className="hover:text-foreground transition-smooth cursor-pointer">Árazás</li>
               </ul>
             </div>
             <div>
-              <h3 className="font-semibold text-base mb-4">Resurse</h3>
+              <h3 className="font-semibold text-base mb-4">Források</h3>
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li className="hover:text-foreground transition-smooth cursor-pointer">
-                  Documentație
+                  Dokumentáció
                 </li>
                 <li className="hover:text-foreground transition-smooth cursor-pointer">
-                  Tutoriale Video
+                  Videó Oktatóanyagok
                 </li>
                 <li className="hover:text-foreground transition-smooth cursor-pointer">Blog</li>
                 <li className="hover:text-foreground transition-smooth cursor-pointer">
-                  Cazuri de Studiu
+                  Esettanulmányok
                 </li>
               </ul>
             </div>
             <div>
-              <h3 className="font-semibold text-base mb-4">Companie</h3>
+              <h3 className="font-semibold text-base mb-4">Cég</h3>
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li className="hover:text-foreground transition-smooth cursor-pointer">
-                  Despre Noi
+                  Rólunk
                 </li>
-                <li className="hover:text-foreground transition-smooth cursor-pointer">Cariere</li>
-                <li className="hover:text-foreground transition-smooth cursor-pointer">Contact</li>
+                <li className="hover:text-foreground transition-smooth cursor-pointer">Karrier</li>
+                <li className="hover:text-foreground transition-smooth cursor-pointer">Kapcsolat</li>
                 <li className="hover:text-foreground transition-smooth cursor-pointer">
-                  Parteneri
+                  Partnerek
                 </li>
               </ul>
             </div>
             <div>
-              <h3 className="font-semibold text-base mb-4">Legal</h3>
+              <h3 className="font-semibold text-base mb-4">Jogi</h3>
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li className="hover:text-foreground transition-smooth cursor-pointer">
-                  Termeni și Condiții
+                  Általános Szerződési Feltételek
                 </li>
                 <li className="hover:text-foreground transition-smooth cursor-pointer">
-                  Politică GDPR
+                  GDPR Szabályzat
                 </li>
                 <li className="hover:text-foreground transition-smooth cursor-pointer">
-                  Politică Confidențialitate
+                  Adatvédelmi Szabályzat
                 </li>
                 <li className="hover:text-foreground transition-smooth cursor-pointer">
-                  Securitate
+                  Biztonság
                 </li>
               </ul>
             </div>
           </div>
           <div className="pt-8 border-t border-border text-center text-sm text-muted-foreground">
-            <p>© 2025 VoiceAI România. Toate drepturile rezervate. | București, România</p>
+            <p>&copy; 2025 VoiceAI Magyarország. Minden jog fenntartva. | Budapest, Magyarország</p>
           </div>
         </div>
       </footer>
