@@ -9,9 +9,9 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-black text-white hover:bg-transparent hover:border-2 hover:border-black hover:text-black rounded-full",
-        pill: "bg-black text-white hover:bg-transparent hover:border-2 hover:border-black hover:text-black rounded-full font-medium",
-        secondary: "bg-secondary text-secondary-foreground hover:bg-transparent hover:border-2 hover:border-secondary hover:text-secondary rounded-full",
+        default: "btn-shimmer bg-gradient-to-r from-yellow-400 via-amber-400 to-yellow-400 text-gray-900 border-2 border-yellow-300 shadow-[0_4px_20px_rgba(251,191,36,0.25)] hover:from-yellow-300 hover:via-amber-300 hover:to-yellow-300 hover:border-yellow-200 hover:text-gray-900 hover:shadow-[0_8px_30px_rgba(251,191,36,0.4)] hover:-translate-y-0.5 active:scale-[0.97] active:shadow-md rounded-xl",
+        pill: "btn-shimmer bg-gradient-to-r from-yellow-400 via-amber-400 to-yellow-400 text-gray-900 border-2 border-yellow-300 shadow-[0_4px_20px_rgba(251,191,36,0.25)] hover:from-yellow-300 hover:via-amber-300 hover:to-yellow-300 hover:border-yellow-200 hover:text-gray-900 hover:shadow-[0_8px_30px_rgba(251,191,36,0.4)] hover:-translate-y-0.5 active:scale-[0.97] active:shadow-md rounded-full font-medium",
+        secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80 hover:text-secondary-foreground rounded-full",
         outline: "border-2 border-border bg-transparent text-foreground hover:bg-black hover:text-white rounded-full",
         ghost: "hover:bg-accent hover:text-accent-foreground rounded-md",
         link: "text-foreground underline-offset-4 hover:underline",

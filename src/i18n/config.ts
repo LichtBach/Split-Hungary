@@ -6,78 +6,110 @@ const resources = {
     translation: {
       voiceAgent: {
         hero: {
-          badge: "AI Hangügynökök",
-          title: "Automatizáld az Ügyfélszolgálatot és a Leadminősítést AI Hangügynökökkel",
-          subtitle: "Természetes Beszélgetések, Valós Időben, 24/7",
-          description: "Intelligens hangügynökök, amelyek beszélnek, megértenek és valós időben válaszolnak magyarul. Hívások, időpontfoglalások és leadminősítés emberi pontossággal, 24/7 elérhetően.",
-          realTime: "🔴 Valós Idejű Hanginterakció - Próbáld Ki Most!",
+          badge: "AI E-kereskedelmi Automatizálás",
+          painQuestion: "Elveszíted a vásárlóid, mert senki nem válaszol nekik?",
+          title: "AI Ügyfélszolgálat a Webshopodhoz – 30 Nap Ingyenes Próba",
+          subtitle: "Automatizáld a rendeléskövetést, terméktanácsadást és elhagyott kosár visszaszerzést – 24/7, magyarul.",
+          painPoints: [
+            "Vásárlók éjjel kérdeznek, de nincs ki válaszoljon",
+            "Elhagyott kosarak = elveszett bevétel minden nap",
+            "Ügyfélszolgálatos fizetések emésztik a profitot"
+          ],
+          socialProof: "E-kereskedelmi vállalkozások már használják",
+          realTime: "Valós Idejű AI Ügyfélszolgálat – Próbáld Ki Most!",
           tryDemo: "Beszélj az AI Ügynökkel",
-          getStarted: "SZERETNÉM 50%-KAL CSÖKKENTENI A KÖLTSÉGEKET"
+          getStarted: "INGYENES 30 NAPOS PRÓBA"
+        },
+        painPoints: {
+          badge: "Ismered ezeket a problémákat?",
+          title: "A Webshopod Pénzt Veszít Minden Percben",
+          subtitle: "Ezek a leggyakoribb problémák, amik miatt e-kereskedelmi vállalkozások bevételt veszítenek",
+          items: [
+            {
+              stat: "68%",
+              statLabel: "elhagyott kosár arány",
+              title: "A vásárlók kérdés nélkül távoznak",
+              description: "Amikor egy vásárlónak kérdése van a méretről, szállításról vagy visszaküldésről – és nincs azonnali válasz – egyszerűen bezárja az oldalt és a konkurenciánál vásárol."
+            },
+            {
+              stat: "45%",
+              statLabel: "elveszett eladás 18:00 után",
+              title: "Munkaidő után nincs ügyfélszolgálat",
+              description: "A vásárlók többsége este és hétvégén böngészik. Ha ilyenkor nincs ki válaszoljon, minden második potenciális vásárlót elveszíted."
+            },
+            {
+              stat: "€2-4K",
+              statLabel: "havi ügyfélszolgálati költség",
+              title: "Az ügyfélszolgálat drága és nem skálázható",
+              description: "Egy-két alkalmazott nem tud 24/7 dolgozni, betegszabadság és fluktuáció miatt folyamatosan új embereket kell betanítani."
+            }
+          ]
         },
         benefits: {
-          title: "Miért Válaszd az AI Hangügynököket",
-          subtitle: "Egyértelmű és mérhető előnyök vállalkozásod számára",
-          available247: "Elérhető 24/7",
-          available247Desc: "AI ügynököd soha nem tart szünetet, nincs hétvégéje, és azonnal válaszol minden hívásra, időponttól és naptól függetlenül.",
-          romanian: "Magyar Anyanyelvi",
-          romanianDesc: "Természetes beszélgetések magyarul, teljes kontextuális megértéssel, a helyi kultúrához és kifejezésekhez igazítva.",
-          instant: "Azonnali Válasz",
-          instantDesc: "Nulla várakozási idő ügyfeleid számára. Minden hívást azonnal fogadunk pontos és professzionális válaszokkal.",
-          scalable: "Végtelenül Skálázható",
-          scalableDesc: "Kezelj 1 vagy 1000 egyidejű hívást többletköltség vagy minőségromlás nélkül.",
-          cta: "SZERETNÉM 50%-KAL CSÖKKENTENI A KÖLTSÉGEKET"
+          title: "Így Oldja Meg az AI Ezeket a Problémákat",
+          subtitle: "Minden fenti problémára van megoldásunk – és 30 napig ingyen kipróbálhatod",
+          available247: "0-24 Ügyfélszolgálat",
+          available247Pain: "Probléma: Munkaidő után senki nem válaszol",
+          available247Desc: "Az AI ügynök éjjel-nappal válaszol – rendeléskövetés, termékkérdések, visszaküldés. Soha nem beteg, soha nem megy szabadságra.",
+          instant: "Azonnali Válasz <5mp",
+          instantPain: "Probléma: Vásárlók várakoznak, majd távoznak",
+          instantDesc: "Minden megkeresésre 5 másodpercen belül válaszol. Termékinformáció, méret, szállítás, készlet – azonnal, pontosan.",
+          scalable: "75% Költségcsökkentés",
+          scalablePain: "Probléma: Drága ügyfélszolgálat, alacsony ROI",
+          scalableDesc: "Kezelj 10.000 egyidejű megkeresést egyetlen AI ügynökkel. Black Friday, karácsony – többletköltség nélkül.",
+          cta: "INGYENES 30 NAPOS PRÓBA"
         },
         calculator: {
-          badge: "Veszteség Kalkulátor",
-          title: "Számold Ki, Mennyi Pénzt Veszítesz vs Takarítsz Meg",
-          subtitle: "Nézd meg a drámai különbséget a jelenlegi költségek és az AI Hangügynökök megtakarításai között",
-          numAgents: "Call Center Ügynökök Száma",
+          badge: "Mennyit Takaríthatsz Meg?",
+          title: "Számold Ki a Megtakarításodat 2 Kattintással",
+          subtitle: "Írd be az aktuális ügyfélszolgálati költségeidet és nézd meg az AI megtakarítást",
+          numAgents: "Ügyfélszolgálati Munkatársak Száma",
           avgSalary: "Bruttó Havi Fizetés (EUR)",
-          totalCost: "Jelenlegi Összköltség",
+          totalCost: "Jelenlegi Havi Költséged",
           perMonth: "havonta 24/7 lefedettségért (3 műszak)",
-          saveWithAI: "Megtakarítás AI Ügynökökkel",
-          reduction: "75% csökkentés",
+          saveWithAI: "Ennyit Takaríthatsz Meg AI-val",
+          reduction: "75% csökkentés az első hónaptól",
           yearlyEstimate: "Becsült éves megtakarítás"
         },
         faq: {
           title: "Gyakran Ismételt Kérdések",
-          subtitle: "Minden, amit tudnod kell az AI hangügynökökről",
+          subtitle: "Minden, amit tudnod kell mielőtt elkezded a 30 napos ingyenes próbát",
           items: [
             {
-              question: "Hogyan működik az AI hangügynök valós időben?",
-              answer: "AI hangügynökünk csúcstechnológiát használ a valós idejű hangfeldolgozáshoz. Amikor a hívó beszél, a rendszer azonnal leírja a hangot, fejlett AI segítségével feldolgozza a jelentést, és milliszekundumok alatt természetes választ generál. Minden valós időben történik, pont mint egy emberi beszélgetés."
+              question: "Hogyan segít az AI a webshopomnál?",
+              answer: "Az AI ügynök automatikusan válaszol a vásárlói kérdésekre: termékinformációk, rendeléskövetés, szállítási státusz, méretezési tanácsok, visszaküldési folyamat. Valós időben hozzáfér a termékkatalógusodhoz és a rendelési adatbázisodhoz, így mindig pontos információt ad."
             },
             {
-              question: "Meg tudja érteni a különböző magyar nyelvjárásokat?",
-              answer: "Igen! Ügynökünk kifejezetten magyar nyelvre van betanítva, és képes megérteni különböző akcentusokat, regionális nyelvjárásokat és beszédstílusokat. A rendszer folyamatosan fejlődik minden beszélgetésből a maximális pontosság érdekében."
+              question: "Integrálható a Shopify, WooCommerce vagy más platformmal?",
+              answer: "Igen! Zökkenőmentesen integrálódik a legnépszerűbb e-kereskedelmi platformokkal: Shopify, WooCommerce, Magento, PrestaShop és egyedi webshopokkal. Automatikusan szinkronizálja a termékkatalógust, készletinformációkat és rendelési adatokat."
             },
             {
-              question: "Integrálható a meglévő rendszereimmel?",
-              answer: "Természetesen! Az AI hangügynök könnyen integrálható a legtöbb platformmal: CRM-ek (Salesforce, HubSpot, Zoho), naptárak (Google Calendar, Outlook), email, és bármely rendszer API-kon vagy webhookokon keresztül. Az igényeidnek megfelelő specifikus integrációkat konfigurálunk."
+              question: "Hogyan kezeli az elhagyott kosarakat?",
+              answer: "Az AI automatikusan felismeri az elhagyott kosarakat és proaktívan felveszi a kapcsolatot a vásárlókkal. Személyre szabott ajánlatokat küld, válaszol a vásárlási akadályokra és segít befejezni a rendelést – akár 25-35%-kal növelve a konverziós arányt."
             },
             {
-              question: "Mennyibe kerül egy AI hangügynök bevezetése?",
-              answer: "A költségek a volumentől és a funkciókól függenek. Legtöbb ügyfelünk 60-80%-ot takarít meg a jelenlegi call center költségekből. Rugalmas csomagokat kínálunk egyszerű megoldásoktól teljes vállalati rendszerekig. Lépj kapcsolatba velünk személyre szabott ajánlatért."
+              question: "Tud termékajánlásokat adni?",
+              answer: "Természetesen! A vásárlási előzmények és a böngészési szokások alapján az AI személyre szabott termékajánlásokat tesz. Cross-selling és up-selling javaslatokkal növeli az átlagos kosárértéket."
+            },
+            {
+              question: "Hogyan működik a 30 napos ingyenes próba?",
+              answer: "Az első 30 napban teljes funkcionalitással használhatod az AI ügynököt a webshopodban – teljesen ingyen. Beállítjuk, integráljuk a rendszereddel és betanítjuk a termékeidre. Ha nem vagy elégedett, egyszerűen lemondod, kötelezettség nélkül."
             },
             {
               question: "Mennyi időbe telik a bevezetés?",
-              answer: "Egy alapvető implementáció 1-2 hét alatt elkészülhet. Ez magában foglalja az ügynök konfigurálását, az egyedi eseteidre való betanítást, a szükséges integrációkat és a tesztelést. Összetettebb implementációk több integrációval 3-4 hetet vehetnek igénybe."
-            },
-            {
-              question: "Kipróbálhatom az ügynököt az elköteleződés előtt?",
-              answer: "Igen! Kipróbálhatod demo ügynökünket közvetlenül ezen az oldalon, hogy működés közben lásd a képességeket. Személyre szabott bemutatóért, amely kifejezetten a te felhasználási esetedre van konfigurálva, lépj kapcsolatba velünk és privát demót szervezünk."
+              answer: "Egy átlagos webshop esetén 5-7 munkanap alatt élesben működik az AI ügynök. Ez magában foglalja a platform integrációt, termékkatalógus importálást, a válaszok finomhangolását és a tesztelést."
             }
           ]
         },
         cta: {
-          button: "SZERETNÉM 50%-KAL CSÖKKENTENI A KÖLTSÉGEKET"
+          button: "INGYENES 30 NAPOS PRÓBA"
         }
       },
       founders: {
         title: "Ismerd Meg az Alapítókat",
-        subtitle: "Az elmék a Split Agency AI-alapú sikere mögött",
-        scheduleCall: "SZERETNÉM 50%-KAL CSÖKKENTENI A KÖLTSÉGEKET",
-        workWithFounders: "Szeretnél közvetlenül az alapítóinkkal dolgozni?",
+        subtitle: "E-kereskedelmi AI automatizálási szakértők, akik segítenek a webshopodnak növekedni",
+        scheduleCall: "INGYENES 30 NAPOS PRÓBA",
+        workWithFounders: "Szeretnél közvetlenül az alapítóinkkal beszélni?",
         callButton: "Hívás",
         emailButton: "Email",
         profiles: [
@@ -128,32 +160,32 @@ const resources = {
       },
       newHomepage: {
         calendly: {
-          title: "Találkozó Ütemezése",
-          description: "Válassz kényelmes dátumot és időpontot személyre szabott demóhoz"
+          title: "Indítsd El a 30 Napos Ingyenes Próbát",
+          description: "Foglalj egy 15 perces hívást és 5-7 napon belül élesben működik az AI a webshopodban"
         },
         winWin: {
           title: "Garantált Win-Win",
-          subtitle: "Az Automatizálás Garantál Neked 100%-os Jövedelmező Hozamot",
-          description: "Nézd meg, miért WIN-WIN neked és vállalkozásodnak",
+          subtitle: "Az E-kereskedelmi Automatizálás Garantálja a Pozitív ROI-t",
+          description: "Nézd meg, miért WIN-WIN neked és a webshopodnak",
           you: {
             title: "TE NYERSZ",
-            subtitle: "Vállalkozás Tulajdonos",
+            subtitle: "Webshop Tulajdonos",
             items: [
+              {
+                title: "30 Nap Ingyen",
+                description: "Próbáld ki kockázat nélkül, fizess csak ha elégedett vagy"
+              },
               {
                 title: "Garantált Pozitív ROI",
                 description: "A megtakarítások mindig meghaladják a befektetést"
               },
               {
-                title: "Fizetsz az Eredményekért",
-                description: "Nem a ledolgozott órákért, hanem a létrehozott értékért"
+                title: "Több Eladás, Kevesebb Munka",
+                description: "AI kezeli a kérdéseket, te a növekedésre koncentrálsz"
               },
               {
-                title: "Nulla Kockázat",
-                description: "Értékalapú árképzés, nem a befektetett időre"
-              },
-              {
-                title: "Skálázható Vállalkozás",
-                description: "Növekedj anélkül, hogy több embert kellene felvenned"
+                title: "Skálázható Megoldás",
+                description: "Black Friday? Karácsony? Az AI nem fárad el"
               }
             ]
           },
@@ -163,7 +195,7 @@ const resources = {
             items: [
               {
                 title: "Hosszú Távú Partnerség",
-                description: "Elégedett ügyfelek = folyamatos együttműködések"
+                description: "Elégedett webshopok = folyamatos együttműködések"
               },
               {
                 title: "Kiváló Hírnév",
@@ -171,11 +203,11 @@ const resources = {
               },
               {
                 title: "Sikertörténetek",
-                description: "Eredményeid lesznek a portfóliónk"
+                description: "Az eredményeid lesznek a portfóliónk"
               },
               {
                 title: "Együtt Növekedés",
-                description: "A vállalkozásod nő = a vállalkozásunk nő"
+                description: "A webshopod nő = a vállalkozásunk nő"
               }
             ]
           },
@@ -200,19 +232,19 @@ const resources = {
               items: [
                 "Fizetsz a mérhető eredményekért",
                 "Fix költség elején meghatározva",
-                "Garantált pozitív ROI az 1. hónaptól",
+                "30 nap ingyenes próba a bizalom építésére",
                 "Motiváltak vagyunk gyorsan szállítani",
                 "A kockázat igazságosan van elosztva"
               ],
-              result: "Eredmény: WIN-WIN 🎉"
+              result: "Eredmény: WIN-WIN"
             }
           },
           guarantee: {
-            title: "Pozitív ROI Garanciánk",
-            description: "Árainkat a megtakarítások és az általunk generált érték alapján határozzuk meg. Ha nem takarítsz meg többet, mint amennyit befektetsz, nem volt jó üzlet.",
+            title: "Kockázatmentes Garancia",
+            description: "30 nap ingyenes próba. Ha nem vagy elégedett, egyszerűen lemondod – semmilyen kötelezettség nélkül. Utána az árak a megtakarítások alapján kerülnek meghatározásra.",
             stats: [
-              { value: "100%", label: "Garantált Pozitív ROI" },
-              { value: "30 nap", label: "Átlagos Implementációs Idő" },
+              { value: "30 nap", label: "Ingyenes Próba" },
+              { value: "5-7 nap", label: "Bevezetési Idő" },
               { value: "75%", label: "Átlagos Költségcsökkentés" }
             ],
             footer: "A te sikered = A mi sikerünk"
@@ -221,7 +253,7 @@ const resources = {
         caseStudy: {
           badge: "Esettanulmány",
           title: "Valós Eredmények, Valós Megtakarítások",
-          subtitle: "Fedezd fel, hogyan segítünk vállalkozásoknak növekedni AI-val",
+          subtitle: "Fedezd fel, hogyan segítettünk egy e-kereskedelmi boltnak 80%-ot megtakarítani",
           company: "DM living.",
           industry: "E-kereskedelmi bolt",
           before: {
@@ -246,14 +278,14 @@ const resources = {
             badge: "AI-val",
             title: "Utána",
             subtitle: "AI Automatizációval",
-            system: "AI Hang Rendszer",
+            system: "AI Ügyfélszolgálat",
             availability: "Elérhető 24/7/365",
             subscription: "AI Előfizetés:",
-            subscriptionCost: "€600/hó",
+            subscriptionCost: "€1000/hó",
             totalMonthly: "Havi Összesen:",
-            totalCost: "€600",
+            totalCost: "€1000",
             benefit1: "Elérhető 24/7",
-            benefit2: "Nincs szabadnap",
+            benefit2: "Nincs szabadnap, nincs betegszabadság",
             benefit3: "Azonnali válasz (<5 mp)"
           },
           savings: {
@@ -266,11 +298,11 @@ const resources = {
           },
           problem: {
             title: "A Probléma",
-            description: "A 2 ügynök túlterhelt volt és nem tudott válaszolni több száz telefonhívásra. Nem volt termékismeretük, nem voltak érdekeltek a munkában, és az ügyfelek frusztráltak voltak, mert senki sem válaszolt a telefonra 18:00 után és hétvégén."
+            description: "A 2 ügynök túlterhelt volt – nem tudtak válaszolni a vásárlói kérdésekre. Nem ismerték a termékeket, nem voltak motiváltak, és 18:00 után meg hétvégén senki sem volt elérhető. Az ügyfelek a konkurenciánál vásároltak."
           },
           solution: {
             title: "A Megoldás",
-            description: "Ez a probléma megoldódott. Most több szabadidejük van és egy jobb ügyfélszolgálati rendszer, amely valós időben tud termékinfókat szerezni és segíteni az ügyfeleknek minden igényükben."
+            description: "Az AI ügynök átvette az ügyfélszolgálatot: azonnali válaszok, pontos termékinformációk, 24/7 elérhetőség. A tulajdonosnak több szabadideje lett, a vásárlók elégedettebbek és a költségek 80%-kal csökkentek."
           }
         },
         footer: {

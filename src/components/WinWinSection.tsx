@@ -191,20 +191,11 @@ export const WinWinSection = ({ showCta = false, onCtaClick, theme = 'default' }
         <div className="text-center mb-12 md:mb-16">
           <Button
             size="lg"
-            className="inline-flex items-center justify-center gap-2 whitespace-nowrap ring-offset-background transition-smooth focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 h-12 w-full sm:w-auto text-xs md:text-sm lg:text-base px-4 md:px-6 py-4 md:py-5 lg:py-6 font-bold shadow-lg md:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] md:hover:translate-x-[2px] md:hover:translate-y-[2px] md:hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] transition-all bg-black text-white hover:bg-transparent hover:text-black border-2 border-black rounded-xl [animation:scale-pulse_2s_ease-in-out_infinite] hover:[animation:none]"
+            className="btn-shimmer inline-flex items-center justify-center gap-2 whitespace-nowrap h-12 w-full sm:w-auto text-xs md:text-sm lg:text-base px-4 md:px-6 py-4 md:py-5 lg:py-6 font-bold rounded-xl transition-all duration-200 bg-gradient-to-r from-yellow-400 via-amber-400 to-yellow-400 text-gray-900 border-2 border-yellow-300 shadow-[0_4px_20px_rgba(251,191,36,0.25)] hover:from-yellow-300 hover:via-amber-300 hover:to-yellow-300 hover:border-yellow-200 hover:text-gray-900 hover:shadow-[0_8px_30px_rgba(251,191,36,0.4)] hover:-translate-y-0.5 active:scale-[0.97] active:shadow-md"
             onClick={onCtaClick}
-            style={{
-              animationName: 'scalePulse'
-            }}
           >
             {t('voiceAgent.cta.button')}
           </Button>
-          <style>{`
-              @keyframes scalePulse {
-                0%, 100% { transform: scale(1); }
-                50% { transform: scale(1.05); }
-              }
-            `}</style>
         </div>
       )}
 

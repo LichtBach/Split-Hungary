@@ -264,6 +264,18 @@ export const CaseStudyProof = ({ onCtaClick, id = "case-study", theme = 'default
           </div>
         </AnimatedSection>
 
+        {/* CTA */}
+        {onCtaClick && (
+          <div className="text-center mt-8 md:mt-10">
+            <Button
+              size="lg"
+              className="btn-shimmer inline-flex items-center justify-center gap-2 whitespace-nowrap h-12 w-full sm:w-auto text-xs md:text-sm lg:text-base px-4 md:px-6 py-4 md:py-5 lg:py-6 font-bold rounded-xl transition-all duration-200 bg-gradient-to-r from-yellow-400 via-amber-400 to-yellow-400 text-gray-900 border-2 border-yellow-300 shadow-[0_4px_20px_rgba(251,191,36,0.25)] hover:from-yellow-300 hover:via-amber-300 hover:to-yellow-300 hover:border-yellow-200 hover:text-gray-900 hover:shadow-[0_8px_30px_rgba(251,191,36,0.4)] hover:-translate-y-0.5 active:scale-[0.97] active:shadow-md"
+              onClick={onCtaClick}
+            >
+              {t('voiceAgent.cta.button')}
+            </Button>
+          </div>
+        )}
 
       </div>
     </section>
