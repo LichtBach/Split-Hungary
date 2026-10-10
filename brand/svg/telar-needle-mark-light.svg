@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200"><defs>
+  <mask id="needle-t" maskUnits="userSpaceOnUse" x="0" y="0" width="200" height="200"><rect width="200" height="200" fill="#fff"/><path d="M82.0 32.0A18.0 18.0 0 0 1 118.0 32.0V136L102.5 185Q100 191 97.5 185L82.0 136Z" stroke="#000" stroke-width="16" stroke-linejoin="round"/></mask>
+  <mask id="needle-n" maskUnits="userSpaceOnUse" x="0" y="0" width="200" height="200"><rect width="200" height="200" fill="#fff"/><rect x="94" y="34" width="12" height="60" rx="6" fill="#000"/></mask>
+  <clipPath id="needle-e"><rect x="94" y="34" width="12" height="60" rx="6"/></clipPath>
+</defs>
+<g mask="url(#needle-t)"><path d="M30 64H140A26 26 0 0 1 166 90V118" fill="none" stroke="#F2F1EF" stroke-width="24" stroke-linecap="round"/></g>
+<path d="M82.0 32.0A18.0 18.0 0 0 1 118.0 32.0V136L102.5 185Q100 191 97.5 185L82.0 136Z" fill="#F2F1EF" mask="url(#needle-n)"/>
+<g clip-path="url(#needle-e)"><path d="M30 64H140A26 26 0 0 1 166 90V118" fill="none" stroke="#F2F1EF" stroke-width="24" stroke-linecap="round"/></g></svg>

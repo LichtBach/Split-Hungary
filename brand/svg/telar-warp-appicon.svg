@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024"><rect width="1024" height="1024" rx="230" fill="#FF6A3D"/><g transform="translate(212 212) scale(3)"><defs>
+  <mask id="warp-l" maskUnits="userSpaceOnUse" x="0" y="0" width="200" height="200"><rect width="200" height="200" fill="#fff"/><line x1="34" y1="66" x2="166" y2="66" stroke="#000" stroke-width="54" stroke-linecap="round"/></mask>
+  <mask id="warp-w" maskUnits="userSpaceOnUse" x="0" y="0" width="200" height="200"><rect width="200" height="200" fill="#fff"/><line x1="121" y1="20" x2="121" y2="180" stroke="#000" stroke-width="50" stroke-linecap="round"/></mask>
+</defs>
+<g stroke="#111111" stroke-linecap="round" fill="none">
+  <line mask="url(#warp-l)" x1="79" y1="20" x2="79" y2="180" stroke-width="32"/>
+  <line mask="url(#warp-w)" x1="34" y1="66" x2="166" y2="66" stroke-width="36"/>
+  <line x1="121" y1="20" x2="121" y2="180" stroke-width="32"/>
+</g></g></svg>

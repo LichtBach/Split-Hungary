@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -4 609 158" width="609" height="158"><g transform="translate(-12.83 -5.21) scale(0.8021)"><defs>
+  <mask id="warp-l" maskUnits="userSpaceOnUse" x="0" y="0" width="200" height="200"><rect width="200" height="200" fill="#fff"/><line x1="34" y1="66" x2="166" y2="66" stroke="#000" stroke-width="54" stroke-linecap="round"/></mask>
+  <mask id="warp-w" maskUnits="userSpaceOnUse" x="0" y="0" width="200" height="200"><rect width="200" height="200" fill="#fff"/><line x1="121" y1="20" x2="121" y2="180" stroke="#000" stroke-width="50" stroke-linecap="round"/></mask>
+</defs>
+<g stroke="#FF6A3D" stroke-linecap="round" fill="none">
+  <line mask="url(#warp-l)" x1="79" y1="20" x2="79" y2="180" stroke-width="32"/>
+  <line mask="url(#warp-w)" x1="34" y1="66" x2="166" y2="66" stroke-width="36"/>
+  <line x1="121" y1="20" x2="121" y2="180" stroke-width="32"/>
+</g></g><g transform="translate(180.75 50)"><path d="M35 -32V87 M13 13H61 M99 50H173A37 37 0 1 0 153.37 82.67 M215 -37V87 M331 50A37 37 0 1 0 257 50A37 37 0 1 0 331 50 M331 13V87 M373 87V50A37 37 0 0 1 410 13H415" fill="none" stroke="#F2F1EF" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/></g></svg>
